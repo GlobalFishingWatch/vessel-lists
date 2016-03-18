@@ -1,5 +1,11 @@
 
-Machine Label on top, the student labels on the left
+Machine Label on top, the student labels on the left. 
+
+This is from the file
+```
+FishingVesselsV2_HighConfidenceStudents_20160314_agreement.csv
+```
+where student confidence > .5
   
 | | Longliner | Trawler | Purse seine |
 |---|---|---|---|
