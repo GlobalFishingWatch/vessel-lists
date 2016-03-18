@@ -1,11 +1,5 @@
 
 Machine Label on top, the student labels on the left. 
-
-This is from the file
-```
-FishingVesselsV2_HighConfidenceStudents_20160314_agreement.csv
-```
-where student confidence > .5
   
 | | Longliner | Trawler | Purse seine |
 |---|---|---|---|
@@ -15,3 +9,9 @@ where student confidence > .5
 | other | 0 | 0 | 1 |
 | trawler | 5 | 7 | 0 |
 | not_fishing | 5 | 9 | 12 |
+
+This is from the file
+```
+FishingVesselsV2_HighConfidenceStudents_20160314_agreement.csv
+```
+where student confidence > .5
