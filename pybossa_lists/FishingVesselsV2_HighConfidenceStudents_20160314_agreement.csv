@@ -12,7 +12,6 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 540002200,Longliner,longliner,1,0.87,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4238,
 224233000,Longliner,longliner,1,1.0,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4572,
 224526000,Trawler,trawler,1,0.98,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4575,
-224992000,Longliner,longliner,1,0.98,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4580,
 227468000,Trawler,trawler,1,0.98,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4589,
 228236000,Trawler,trawler,1,0.86,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4593,
 228380000,Trawler,trawler,1,0.54,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4594,
@@ -48,9 +47,7 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 227067860,Longliner,not_fishing,0,0.69,36,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4583,
 227226520,Purse seine,not_fishing,0,0.84,36,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4585,
 227297000,Longliner,not_fishing,0,0.73,38,0.900015762,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4586,
-227300110,Longliner,other,0,0.5,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4587,"trammel nets,multi_gear,"
 227338180,Trawler,not_fishing,0,0.77,36,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4588,
-228107800,Trawler,other,0,0.56,30,1,1,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4591,"multi_gear,multi_gear,"
 205250790,Purse seine,not_fishing,0,0.57,55,1,0.8333333333333334,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4548,
 210687000,Trawler,not_fishing,0,0.75,90,1,0.8333333333333334,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4550,
 211439790,Purse seine,not_fishing,0,0.61,36,1,0.8333333333333334,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4552,
@@ -74,13 +71,12 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 205524010,Longliner,not_fishing,0,0.64,36,1,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4549,
 224098360,Trawler,not_fishing,0,0.68,36,1,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4568,
 224792000,Purse seine,longliner,0,0.79,99,1,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4577,
+224854000,Longliner,trawler,0,1.0,99,0.995951417,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4578,
+226011210,Purse seine,not_fishing,0,0.94,79,1,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4582,
+227222590,Longliner,not_fishing,0,0.86,37,1,0.6666666666666666,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4584,
 224104340,Purse seine,purse_seine,1,0.54,30,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4113,
 251030110,Trawler,purse_seine,0,0.84,30,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4137,
 200007580,Trawler,not_fishing,0,0.68,70,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4545,
-224854000,Longliner,trawler,0,1.0,99,0.995951417,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4578,
-225019240,Purse seine,longliner,0,0.86,30,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4581,
-226011210,Purse seine,not_fishing,0,0.94,79,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4582,
-227222590,Longliner,not_fishing,0,0.86,37,1,0.5,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4584,
 200001929,Purse seine,not_fishing,0,0.8,30,0.503703704,0.42857142857142855,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4541,
 412432558,Purse seine,purse_seine,1,0.88,94,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4185,
 416001414,Longliner,longliner,1,1.0,30,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4214,
@@ -109,6 +105,7 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 800019314,Purse seine,other,0,0.67,30,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4246,"baddata,"
 800026188,Trawler,other,0,0.53,30,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4247,"baddata,"
 900022910,Purse seine,other,0,0.63,30,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4248,"baddata,"
+225019240,Purse seine,longliner,0,0.86,30,1,0.3333333333333333,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4581,
 225378000,Longliner,"longliner:3,purse_seine:1",0,0.85,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4115,
 227314010,Longliner,"trawler:1,otherfish:2,other:2",0,0.53,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4120,"trammel netter,gills and nets,"
 228827000,Longliner,"otherfish:2,other:1",0,0.53,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4123,"pots and traps,"
@@ -134,11 +131,13 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 224020920,Longliner,"not_fishing:3,other:1",0,0.74,52,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4562,"tug,"
 224040160,Purse seine,"purse_seine:2,other:1",0,0.93,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4563,"purse seine from pictures,"
 224155960,Longliner,"otherfish:2,other:1",0,0.8,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4570,"set gill nets,"
-224182460,Longliner,"not_fishing:2,other:1",0,0.94,36,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4571,"multi_gear,"
 224290000,Longliner,"longliner:1,otherfish:2",0,0.93,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4574,
-224936000,Longliner,"longliner:1,other:1",0,0.79,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4579,"multi_gear,"
-227667550,Longliner,"trawler:1,other:1",0,0.56,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4590,"multi_gear,"
-228228700,Trawler,"trawler:1,other:1",0,0.51,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4592,"multi_gear,"
+224936000,Longliner,"longliner:2,other:1",0,0.79,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4579,"multi_gear,"
+224992000,Longliner,"longliner:2,trawler:1",0,0.98,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4580,
+227300110,Longliner,"otherfish:1,other:2",0,0.5,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4587,"trammel nets,multi_gear,"
+227667550,Longliner,"trawler:2,other:1",0,0.56,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4590,"multi_gear,"
+228107800,Trawler,"purse_seine:1,other:2",0,0.56,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4591,"multi_gear,multi_gear,"
+228228700,Trawler,"trawler:2,other:1",0,0.51,30,1,0.3,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4592,"multi_gear,"
 1193046,Purse seine,"other:1,not_known:1,multiple_vessles:6",0,0.78,50,0.57532533,0.2625,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4539,"baddata,"
 215000330,Longliner,"longliner:1,purse_seine:1,otherfish:1,other:2,not_known:1",0,0.84,30,1,0.25,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4555,"multi_gear,multi_gear,"
 219006116,Purse seine,"trawler:4,other:1,not_known:1",0,0.53,30,1,0.25,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4556,"multi_gear,"
@@ -146,6 +145,7 @@ mmsi,model_label,student_label,student_model_agreement,model_score,type,type_sco
 231180000,Longliner,"longliner:1,otherfish:1,other:1,not_known:1",0,0.89,30,1,0.22499999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4124,"pole and line,"
 601126000,Longliner,"longliner:2,other:1,not_known:1",0,0.68,30,1,0.22499999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4241,"baddata,"
 224007250,Longliner,"purse_seine:1,trawler:1,other:1,not_known:1",0,0.7,30,1,0.22499999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4559,"trammel nets,"
+224182460,Longliner,"not_fishing:2,other:1,not_known:1",0,0.94,36,1,0.22499999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4571,"multi_gear,"
 251140740,Purse seine,"otherfish:1,other:1,not_known:1",0,0.53,30,1,0.19999999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4138,"pole and line ,"
 271072022,Purse seine,"purse_seine:1,reefer:1,not_known:1",0,0.52,30,1,0.19999999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4147,
 273810800,Longliner,"longliner:1,otherfish:1,not_known:1",0,0.97,30,0.558102345,0.19999999999999998,http://crowd.globalfishingwatch.org/project/id_fishing_vessels_v2/task/4150,
