@@ -4,6 +4,9 @@ MMSIs of vessels which declare the vessel type to be 'Fishing' in type 5 or 24
 
 Based on this query: https://github.com/GlobalFishingWatch/pleuston/issues/28
 
+See the query committed here for the precise definition.  Basically this is
+vessels that have > 1000 positional messages in a year and always declare a 
+vessel type of 'Fishing'
 
 ## For Reference
 
