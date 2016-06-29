@@ -15,10 +15,12 @@ Vessel Classes
 
 * Motorized Yacht/Pleasure Craft
 
+* Research/Survey
+
 * Seismic vessel
 
 * Passenger vessel: ferries
 
 * Sail boat
 
-* Work vessel: tug, pilot, supply, dredgers
+* Work vessel: tug, pilot, supply, dredgers, military, patrol
