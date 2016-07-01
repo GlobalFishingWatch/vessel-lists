@@ -33,6 +33,8 @@ list is baked enough yet.
 Additional Items
 ----------------
 
+vessel_classes: list of classes used in manual and NNet classification
+
 clasification_lists_path: path to directory of miscelaneous classification lists
 
 
@@ -56,16 +58,27 @@ def _load_mmsis_by_year(name, path, year_index,
 		doc = open(_path(path, readme)).read()
 	else:
 		doc = None
-	KnownFishing = type(name, (dict,), {"__doc__": doc})
+	MmsiMap = type(name, (dict,), {"__doc__": doc})
 	paths = glob.glob(_path(path, pattern))
-	known_fishing = KnownFishing()
+	mmsi_map = MmsiMap()
 	for p in paths:
 		name, _ = os.path.splitext(os.path.basename(p))
 		year = int(name.split('-')[year_index])
-		mmsi = open(p).read().strip().split()
-		known_fishing[year] = mmsi
-	return known_fishing
+		mmsi = [x.strip() for x in open(p).read().strip().split('\n')]
+		mmsi_map[year] = mmsi
+	return mmsi_map
 
+
+def _load_list(name, path, pattern="*.txt", readme=None):
+	import glob, os
+	if readme:
+		doc = open(_path(path, readme)).read()
+	else:
+		doc = None
+	ListLike = type(name, (list,), {"__doc__": doc})
+	full_path = _path(path, name)
+	lines = open(full_path).read().strip().split('\n')
+	return ListLike([x.strip() for x in lines])
 
 
 active_mmsis = _load_mmsis_by_year(
@@ -95,6 +108,13 @@ known_likely_fishing = _load_mmsis_by_year(
 					pattern="known-likely-fishing-mmsis-*.txt",
 					readme=None)
 
+
+vessel_classes = _load_list(name="vessel_classes.md",
+						    path="",
+						    readme=None)
+
 classification_lists_path = _path("internal/classification_lists")
+
+
 
 
