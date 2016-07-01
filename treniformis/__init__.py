@@ -33,8 +33,7 @@ list is baked enough yet.
 Additional Items
 ----------------
 
-clasification_lists_path : str
-	Path to directory of miscelaneous classification lists
+clasification_lists_path: path to directory of miscelaneous classification lists
 
 
 In addition to the stuff documented above there are many items
