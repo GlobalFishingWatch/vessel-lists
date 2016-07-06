@@ -24,12 +24,6 @@ is available for them using `help(obj)` or `print(obj.__doc__)`:
 * spoofing: MMSI that appear to be associated with spoofing.
 
 
-# TODO
-
-classification_results should go in here, but I don't think that
-list is baked enough yet.
-
-
 Additional Items
 ----------------
 
